@@ -43,11 +43,19 @@ form input {
   height: 40px;
   width: 420px;
   margin-bottom: 15px;
+  font-size: 18px;
 }
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
 form textarea {
   height: 200px;
   width: 420px;
   border: none;
+  font-size: 18px;
 }
 
 form button {
