@@ -1,0 +1,62 @@
+/* --------------------------- */
+/* Appliqué Partout */
+/* --------------------------- */
+* {
+  font-family: Arial;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: rgb(84, 58, 163);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------------------------- */
+/* HEADER - HEADER */
+/* --------------------------- */
+
+/* --------------------------- */
+/* MAIN - GENERAL */
+/* --------------------------- */
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+form {
+  border: 1px solid blue;
+  border-radius: 10px;
+  width: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(204, 204, 204);
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  height: 40px;
+  width: 420px;
+  margin-bottom: 15px;
+}
+form textarea {
+  height: 200px;
+  width: 420px;
+  border: none;
+}
+
+form button {
+  color: white;
+  background-color: rgb(84, 58, 163);
+  border: solid rgb(84, 58, 163) 1px;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 50px;
+  width: 420px;
+  margin-top: 15px;
+}
