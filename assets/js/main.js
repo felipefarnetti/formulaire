@@ -16,11 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(data);
 
     const response = await axios.post(
-      "site--formulaire-back--4w9wbptccl4w.code.run/form",
+      "site--formulaire-back--4w9wbptccl4w.code.run/form/",
       data
     );
     console.log(response);
   });
 });
-
-// site--formulaire-back--4w9wbptccl4w.code.run
